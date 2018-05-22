@@ -46,7 +46,6 @@ django-redis==4.9.0
 django-sendfile==0.3.11
 django-summernote==0.8.8.6
 django-taggit==0.22.2
-django-vanilla==0.4.0
 django-vanilla-views==1.0.5
 django-webpack-loader==0.6.0
 django-webtest==1.9.2
