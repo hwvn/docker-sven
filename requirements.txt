@@ -96,7 +96,7 @@ pycryptodomex==3.5.1
 pyflakes==1.6.0
 Pygments==2.2.0
 pyjwkest==1.4.0
-pyOpenSSL==17.5.0
+pyOpenSSL==17.2.0
 pytest==3.5.0
 python-dateutil==2.7.2
 pytz==2018.3
