@@ -30,6 +30,8 @@ django-bootstrap3==9.1.0
 django-bootstrap4==0.0.6
 django-braces==1.12.0
 django-cacheops==4.0.6
+django-celery-beat==1.1.1
+-e git+https://github.com/gooesoft/django-celery-results@1ff9090166252a8360c62a1303402753be24eebc#egg=django_celery_results
 django-clear-cache==0.3
 django-compat==1.0.15
 django-configuration==0.0.3
@@ -46,7 +48,8 @@ django-redis==4.9.0
 django-sendfile==0.3.11
 django-summernote==0.8.8.6
 django-taggit==0.22.2
-django-vanilla-views==1.0.4
+django-vanilla==0.4.0
+django-vanilla-views==1.0.5
 django-webpack-loader==0.6.0
 django-webtest==1.9.2
 djangorestframework==3.8.2
