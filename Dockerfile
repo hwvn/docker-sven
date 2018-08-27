@@ -30,6 +30,8 @@ RUN set -ex \
   && rm -rf /var/cache/apk/* && \
   chown -R nginx:www-data /var/lib/nginx
 
+RUN pip install --upgrade pip
+
 RUN pip install uwsgi
 RUN pip install weasyprint
 
