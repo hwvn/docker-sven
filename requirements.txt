@@ -50,6 +50,7 @@ django-oidc-rp==0.2.0
 django-ordered-model==1.4.3
 django-polymorphic==2.0.2
 django-redis==4.9.0
+django-semanticui-forms==1.6.5
 django-sendfile==0.3.11
 django-summernote==0.8.8.6
 django-tables2==1.21.2
@@ -90,6 +91,7 @@ oic==0.10.0.0
 parso==0.1.1
 pexpect==4.4.0
 pickleshare==0.7.4
+Pillow==5.2.0
 pip-tools==1.11.0
 pluggy==0.6.0
 poyo==0.4.1
