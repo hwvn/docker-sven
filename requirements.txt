@@ -23,6 +23,8 @@ cryptography==2.2.2
 decorator==4.2.1
 Django==1.11
 -e git+https://github.com/tamhv/django-admin-bootstrapped@6e450196de4d3cfd11b4b45acf0d678f49f4414e#egg=django_admin_bootstrapped
+django-appconf==1.0.2
+-e git+https://github.com/gooesoft/django-attachments@dce52a51dcc15ec029592738621a96619a5dda7f#egg=django_attachments
 django-autocomplete-light==3.2.10
 django-autofixture==0.12.1
 django-bootstrap-breadcrumbs==0.8.2
@@ -39,6 +41,8 @@ django-debug-toolbar==1.9.1
 django-extensions==2.0.6
 django-filter==1.1.0
 django-formtools==2.1
+django-fsm==2.6.0
+django-fsm-log==1.5.0
 django-hijack==2.1.7
 django-model-utils==3.1.1
 django-oidc-rp==0.2.0
@@ -48,6 +52,7 @@ django-polymorphic==2.0.2
 django-redis==4.9.0
 django-sendfile==0.3.11
 django-summernote==0.8.8.6
+django-tables2==1.21.2
 django-taggit==0.22.2
 django-vanilla-views==1.0.4
 django-webpack-loader==0.6.0
