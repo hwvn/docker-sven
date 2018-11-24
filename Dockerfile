@@ -1,4 +1,5 @@
 FROM python:3.6.5-alpine3.4
+
 RUN addgroup -g 1001 -S uwsgi && adduser -u 1001 -S -G uwsgi uwsgi && \
     apk add --no-cache  'su-exec>=0.2'
     
