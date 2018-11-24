@@ -1,9 +1,10 @@
 FROM python:3.6.5-alpine3.4
-
+RUN addgroup -g 1001 -S uwsgi && adduser -u 1001 -S -G uwsgi uwsgi && \
+    apk add --no-cache  'su-exec>=0.2'
+    
 RUN set -ex \
     && apk add --no-cache --update \
     build-base \
-    ttf-dejavu \ 
     gcc \
     make \
     libc-dev \
@@ -15,29 +16,19 @@ RUN set -ex \
     libffi \
     gdk-pixbuf \
     jpeg-dev \
+    freetype-dev \
     postgresql-dev \
     python3-dev \
-    cairo-dev \
-    pango-dev \
     libmagic \
-    cairo \
-    graphviz\ 
-    pango \
-    glib \
+    ffmpeg \
     git \
-    nginx \
-    supervisor \
-    nodejs \
-  && rm -rf /var/cache/apk/* && \
-  chown -R nginx:www-data /var/lib/nginx
+    curl \
+  && rm -rf /var/cache/apk/*
 
-RUN pip install --upgrade pip
+RUN curl https://bootstrap.pypa.io/get-pip.py | python
 
 RUN pip install uwsgi
-RUN pip install weasyprint
 
 COPY ./requirements.txt /requirements.txt
-#RUN pip install --no-cache-dir -r /requirements.txt
-RUN pip install -r /requirements.txt
-#COPY ./fonts /usr/share/fonts
-RUN fc-cache
+RUN pip install --no-cache-dir -r /requirements.txt
+ENV PYTHONUNBUFFERED=1
