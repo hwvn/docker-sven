@@ -23,6 +23,7 @@ RUN set -ex \
     libmagic \
     ffmpeg \
     git \
+    nodejs \
     curl \
   && rm -rf /var/cache/apk/*
 
