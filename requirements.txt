@@ -123,7 +123,7 @@ uritemplate==3.0.0
 urllib3==1.22
 uWSGI==2.0.17
 vine==1.1.4
-waitress==1.1.0
+waitress==1.4.2
 wcwidth==0.1.7
 webencodings==0.5.1
 WebOb==1.7.4
