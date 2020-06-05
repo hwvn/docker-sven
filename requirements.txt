@@ -22,7 +22,7 @@ coreschema==0.0.4
 coverage==4.5.1
 cryptography==2.2.2
 decorator==4.2.1
-Django==1.11
+Django==1.11.29
 -e git+https://github.com/tamhv/django-admin-bootstrapped@6e450196de4d3cfd11b4b45acf0d678f49f4414e#egg=django_admin_bootstrapped
 django-autocomplete-light==3.2.10
 django-autofixture==0.12.1
