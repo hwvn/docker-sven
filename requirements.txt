@@ -83,7 +83,7 @@ MarkupSafe==1.0
 mccabe==0.6.1
 model-mommy==1.5.1
 more-itertools==4.1.0
-oic==0.10.0.0
+oic==1.2.1
 parso==0.1.1
 pexpect==4.4.0
 pickleshare==0.7.4
