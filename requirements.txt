@@ -36,7 +36,7 @@ django-celery-beat==1.1.1
 django-clear-cache==0.3
 django-compat==1.0.15
 django-configuration==0.0.3
-django-debug-toolbar==1.9.1
+django-debug-toolbar==1.11.1
 django-extensions==2.0.6
 django-filter==1.1.0
 django-formtools==2.1
